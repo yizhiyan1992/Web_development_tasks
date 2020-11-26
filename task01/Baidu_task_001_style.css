@@ -1,0 +1,231 @@
+/* nav part */
+.navbar {	
+	background-color: #660066;
+	height: 80px;
+	width: 100%;
+	color: white;
+	padding-bottom:0;
+}
+.navbar-content {
+	position: relative;
+	margin: auto;
+	width: 980px;
+	height: 80px;
+}
+.navbar-brand {
+	font-family: 'Nerko One', cursive;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	font-size:40px;
+}
+.navbar-nav {
+	position: absolute;
+	right: 10px;
+	bottom: 0;
+	padding-bottom: 0;
+	width: 360px;
+	margin-bottom: 10px;
+}
+.navbar-nav ul {
+	list-style: none;
+}
+.navbar-nav li {
+	float:left;
+	margin-right: 20px;
+}
+.navbar-nav a {
+	text-decoration: none;
+	color: white;
+}
+.navbar-nav a:hover {
+	color: white;
+}
+.navbar-logo {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+/* end of nav part */
+
+main .banner {
+	position: relative;
+	width: 100%;
+	height: 600px;
+
+}
+main .banner img {
+	height: 100%;
+	width: 100%;
+}
+main .banner-intro p{
+	text-align: center;
+	font-family: 'Nerko One', cursive;
+	color: white;
+	font-size: 26px;
+
+}
+main .banner-intro {
+	position: absolute;
+	right: 85px;
+	bottom: 0;
+	width: 300px;
+	height: 100px;
+	background-color: white;
+	background-color:rgba(255,255,255,0.3);
+
+}
+main .content {
+	width: 100%;
+	height: 500px;
+	background-color: #C8C8C8;
+}
+.content-frame {
+	width: 80%;
+	height: 400px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.content-block {
+	width: 320px;
+	height: 320px;
+	float: left;
+	margin: 10px;
+	padding: 15px;
+	background-color: white;
+}
+.content-block #picture1 {
+		background: url("pic1.jpg") no-repeat center;
+}
+.content-block #picture2 {
+		background: url("pic2.png") no-repeat center;
+}
+.content-block #picture3 {
+		background: url("pic3.jpg") no-repeat center;
+}
+.content-block .image-box {
+	width: 300px;
+	height: 180px;
+	margin: auto;
+	background-size: 100% auto;
+}
+.description-box {
+	padding: 15px;
+	padding-top: 0;
+}
+
+
+.sub-content {
+	position: relative;
+	width: 100%;
+	height: 300px;
+}
+.sub-content-profilepic {
+	position: absolute;
+	top: -190px;
+	left: 50%;
+	transform: translate(-50%,0%);
+
+	border: 1px solid white;
+	border-radius: 50%;
+	background: url("profile-pic.jpg") no-repeat;
+	background-size: 200% auto;
+	background-position: -70px ;
+	width: 150px;
+	height: 150px;
+	
+
+}
+.sub-content-title {
+	margin-top: 120px;
+	font-size: 26px;
+	text-align: center;
+}
+.sub-content-article {
+	margin: auto;
+	margin-top: 20px;
+	text-align: center;
+	width: 50%;
+}
+
+/*	end of content part */
+
+/* start of footer */
+footer {
+	width: 100%;
+	height: 300px;
+	background-color: black;
+}
+
+.footer-box {
+	width: 30%;
+	height: 30px;
+	margin: auto;
+	padding-top: 0px;
+}
+
+.footer-nav {
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.footer-nav li, .footer-nav a {
+	font-size: 16px;
+	float: left;
+	list-style: none;
+	text-decoration: none;
+	margin-left: 5px;
+	text-align: center;
+	color: white;
+}
+
+footer hr {
+	border: 0.1px solid #AAAAAA;
+}
+
+.footer-links {
+	color: white;
+}
+.footer-links .row {
+	display: flex;
+	justify-content: center;
+}
+.footer-links-block {
+	width: 15%;
+	height: 180px;
+	float: left;
+	margin: auto;
+
+}
+
+.footer-links-block p {
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	color: #AAAAAA;
+}
+.footer-links-block ul {
+	padding-left: 0;
+	width: 100%;
+}
+.footer-links-block li {
+	text-align: center;
+	padding-bottom: 5px;
+	list-style: none;}
+
+.footer-links-block a {
+	text-decoration: none;
+	color: white;
+}
+
+.copyright div {
+	color: white;
+	font-size: 14px;
+	text-align: center;
+}
+.copyright #copyright-word {
+	margin-bottom: 20px;
+	padding-top: 5px;
+}
