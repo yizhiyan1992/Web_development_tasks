@@ -1,0 +1,57 @@
+/*
+#box1,#box2,#box3,#box4 {
+	border: 2px solid black;
+}
+*/
+.sub-body-logo {
+	height: 140px;
+	width: 140px;
+	background-color: #B22222;
+	border-radius: 50%;
+}
+.container .col-lg-3 {
+	text-align: center;
+}
+.container .col-lg-3 div {
+	margin: 10px auto;
+}
+.container .col-lg-3 img {
+	margin: 20px auto;
+}
+
+/* Carousel part*/
+#slide1 .carousel-caption {
+	width: 30%;
+	margin-left: 45%;
+	margin-bottom: -50px;
+	background-color: grey;
+	background-color:rgba(0,0,0,0.4);
+	text-align: left;
+	padding-left: 20px;
+}
+#slide2 .carousel-caption {
+	width: 30%;
+	margin-left: 45%;
+	margin-bottom: -50px;
+	background-color: grey;
+	background-color:rgba(255,255,255,0.3);
+	text-align: left;
+	padding-left: 20px;
+	padding-bottom: 5px;
+}
+#slide2 .carousel-caption p {
+	margin-bottom: 10px;
+}
+#slide2 .carousel-caption ul {
+	padding: 0;
+	padding-left: 15px;
+	font-size: 16px;
+}
+/* block elements */
+#block1 p {
+	line-height:0.8;
+}
+#block1 a {
+	color: #696969;
+	text-decoration: none;
+}
