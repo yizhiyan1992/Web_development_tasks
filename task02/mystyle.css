@@ -55,3 +55,59 @@
 	color: #696969;
 	text-decoration: none;
 }
+
+#project-frame {
+	width: 500px;
+	height: 500px;
+}
+#project-frame p {
+	vertical-align: middle;
+}
+.project-btn {
+	width: 150px;
+	height: 150px;
+	margin-bottom: 5px;
+	font-size:20px;
+	border: 0;
+}
+#project-intro p {
+	line-height: 0.8;
+	font-weight: 500;
+}
+#project-btn1, #project-btn8 {
+	background-color: #4B4B4B;
+}
+
+#project-btn3 {
+	background-color: #969696;
+	color: black;
+}
+#project-btn4 {
+	background-color: #DDDDDD;
+	color: black;
+}
+#project-btn5 {
+	background-color: #666666;
+}
+#project-btn6 {
+	background-color: #EEEEEE;
+	color: black;
+}
+#project-btn7 {
+	background-color: #808080;
+}
+/* publications page design */
+#publications-title {
+	font-family: 'Roboto', sans-serif;
+}
+#publications-full_list {
+	font-family: 'Roboto', sans-serif ;
+	font-size: 20px;
+}
+
+#publications-list a,#publications-list li {
+	font-family: 'Roboto', sans-serif;
+	color: #696969;
+	text-decoration: none;
+	padding-bottom: 15px;
+}
