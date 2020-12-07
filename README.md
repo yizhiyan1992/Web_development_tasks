@@ -4,4 +4,4 @@ assignment and project
 https://yizhiyan1992.github.io/Web_development_tasks/task01/Baidu_task_001.html
 
 2. Task 2: Design the personal webpage for professor (Using Bootstrap)
-https://yizhiyan1992.github.io/Web_development_tasks/task02/index.html
+https://yizhiyan1992.github.io/Web_development_tasks/task02/index_v2.html
