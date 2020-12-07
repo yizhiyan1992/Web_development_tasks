@@ -19,7 +19,7 @@
 	margin: 20px auto;
 }
 
-/* Carousel part*/
+
 #slide1 .carousel-caption {
 	width: 30%;
 	margin-left: 45%;
@@ -47,6 +47,11 @@
 	padding-left: 15px;
 	font-size: 16px;
 }
+/* box elements */
+.marketing .box {
+	text-align: center;
+}
+
 /* block elements */
 #block1 p {
 	line-height:0.8;
@@ -77,7 +82,13 @@
 #project-btn1, #project-btn8 {
 	background-color: #4B4B4B;
 }
-
+#project-btn1:hover,#project-btn2:hover,#project-btn3:hover,#project-btn5:hover,
+#project-btn7:hover,#project-btn8:hover,#project-btn9:hover {
+	background-color: #DDDDDD;
+}
+#project-btn4:hover,#project-btn6:hover {
+	background-color: #808080;
+}
 #project-btn3 {
 	background-color: #969696;
 	color: black;
@@ -110,4 +121,47 @@
 	color: #696969;
 	text-decoration: none;
 	padding-bottom: 15px;
+}
+/* opprtunities page design */
+#Opportunities-frame {
+	font-family: 'Roboto', sans-serif;
+}
+#Opportunities-frame h1 {
+	color:#646464;
+}
+#Opportunities-frame h3 {
+	color:#708090;
+}
+#Opportunities-frame p {
+	font-size: 20px;
+	color:#808080;
+}
+
+/* media query */
+@media (min-width: 992px) {
+#project-intro {
+	padding-left: 80px;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+#project-intro {
+	padding-left: 80px;
+}
+#project-frame {
+	width: 350px;
+	height: 350px;
+}
+.project-btn {
+	width: 100px;
+	height: 100px;
+
+}
+@media (max-width: 767px) {
+.carousel-item, .carousel-item img {
+  height: 300px !important;
+ }
+
+#project-intro {
+	margin-left: 0;
+}
 }
