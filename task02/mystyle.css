@@ -51,7 +51,9 @@
 .marketing .box {
 	text-align: center;
 }
-
+#block1 p,#block1 h2 {
+	margin-left: 50px;
+}
 /* block elements */
 #block1 p {
 	line-height:0.8;
@@ -59,6 +61,9 @@
 #block1 a {
 	color: #696969;
 	text-decoration: none;
+}
+#project-intro p {
+	color: rgba(138,145,150,1);
 }
 
 #project-frame {
@@ -107,6 +112,12 @@
 #project-btn7 {
 	background-color: #808080;
 }
+#spatial-vis {
+	margin-top: 45px;
+}
+
+
+
 /* publications page design */
 #publications-title {
 	font-family: 'Roboto', sans-serif;
