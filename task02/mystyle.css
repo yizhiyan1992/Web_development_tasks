@@ -18,35 +18,20 @@
 .container .col-lg-3 img {
 	margin: 20px auto;
 }
-
-
-#slide1 .carousel-caption {
-	width: 30%;
-	margin-left: 45%;
-	margin-bottom: -50px;
-	background-color: grey;
-	background-color:rgba(0,0,0,0.4);
+.carousel-caption h1 {
+	font-size: 6vw;
+	margin-top: -40%;
+}
+.carousel-caption p {
+	font-size: 3vw;
+}
+.carousel-caption li {
+	list-style: none;
+	padding-left: 18%;
 	text-align: left;
-	padding-left: 20px;
+	font-size: 2.5vw;
 }
-#slide2 .carousel-caption {
-	width: 30%;
-	margin-left: 45%;
-	margin-bottom: -50px;
-	background-color: grey;
-	background-color:rgba(255,255,255,0.3);
-	text-align: left;
-	padding-left: 20px;
-	padding-bottom: 5px;
-}
-#slide2 .carousel-caption p {
-	margin-bottom: 10px;
-}
-#slide2 .carousel-caption ul {
-	padding: 0;
-	padding-left: 15px;
-	font-size: 16px;
-}
+
 /* box elements */
 .marketing .box {
 	text-align: center;
@@ -179,36 +164,7 @@
 #project-intro {
 	margin-left: 0;
 }
-#slide1 .carousel-caption {
-	width: 30%;
-	height:50%;
-	margin-left: 45%;
-	margin-bottom: -50px;
-	background-color: grey;
-	background-color:rgba(0,0,0,0.4);
-	text-align: left;
-	padding-left: 20px;
-	font-size:12px;
-}
-#slide2 .carousel-caption {
-	width: 30%;
-	height:50%;
-	margin-left: 45%;
-	margin-bottom: -50px;
-	background-color: grey;
-	background-color:rgba(255,255,255,0.3);
-	text-align: left;
-	padding-left: 20px;
-	padding-bottom: 5px;
-	font-size:12px;
-}
-.carousel-caption p, .carousel-caption h1, .carousel-caption h2 {
-	font-size:12px;
-}
- .carousel-caption li {
- 	font-size: 10px;
- 	line-height: 1;
- }
+
 #project-frame {
 	width: 300px;
 	height: 300px;
