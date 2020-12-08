@@ -160,7 +160,9 @@
 .carousel-item, .carousel-item img {
   height: 300px !important;
  }
-
+#block1 p,#block1 h2 {
+	margin-left: 0;
+}
 #project-intro {
 	margin-left: 0;
 }
