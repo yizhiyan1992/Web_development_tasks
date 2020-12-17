@@ -118,6 +118,13 @@
 	text-decoration: none;
 	padding-bottom: 15px;
 }
+
+#publications-list a:hover {
+	text-shadow: 0.5px 0.5px 0.5px #003472;
+}
+#publications-list a:visited {
+	color: #1685a9;
+}
 /* opprtunities page design */
 #Opportunities-frame {
 	font-family: 'Roboto', sans-serif;
@@ -131,6 +138,25 @@
 #Opportunities-frame p {
 	font-size: 20px;
 	color:#808080;
+}
+
+/* TEAM */
+.row.team-member {
+	height: 400px;
+}
+.team-member-profilepic div {
+	background-size: 360px 400px;
+	background-repeat: no-repeat;
+	width: 90%;
+	height: 90%;
+	margin: auto;
+}
+.team-member-intro-name {
+	color: #6c757d;
+}
+.team-member-intro-detail, .team-introduction {
+	font-size: 18px;
+	text-align: justify;
 }
 
 /* media query */
@@ -153,7 +179,19 @@
 	width: 100px;
 	height: 100px;
 }
+.team-member-profilepic {
+	width: 200px;
+	height: 250px;
 }
+.team-member-profilepic div {
+	background-size: 230px 250px;
+}
+.team-member-intro-detail, .team-introduction {
+	font-size: 16px;
+	text-align: justify;
+}
+}
+
 /* small screen */
 @media  (min-width: 0) and (max-width: 767px){
 
@@ -175,4 +213,23 @@
 	width: 80px;
 	height: 80px;
 }
+.featurette-divider.team {
+	margin: 20px;
 }
+.row.team-member {
+	height: 350px;
+}
+.team-member-profilepic {
+	width: 180px;
+	height: 200px;
+}
+.team-member-profilepic div {
+	background-size: 180px 200px;
+	margin: auto;
+}
+.team-member-intro-detail, .team-introduction {
+	font-size: 16px;
+	text-align: justify;
+}
+}
+
