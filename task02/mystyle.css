@@ -100,12 +100,36 @@
 #spatial-vis {
 	margin-top: 45px;
 }
+/* biography page design */
+.biography-title {
+	font-family: 'Bungee Inline', cursive;
+	color:#c93756;
+}
+.featurette-divider.biography {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.biography-paragraph, #awards-list li {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	line-height: 2;
+	text-align: justify;
+}
+#awards-list li {	
+	background-image: url('brand/medal.svg');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	padding-left: 2rem;
+}
 
-
+#awards-list {
+	list-style-type: none;
+}
 
 /* publications page design */
 #publications-title {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Bungee Inline', cursive;
+	color:#c93756;
 }
 #publications-full_list {
 	font-family: 'Roboto', sans-serif ;
@@ -129,18 +153,24 @@
 #Opportunities-frame {
 	font-family: 'Roboto', sans-serif;
 }
-#Opportunities-frame h1 {
-	color:#646464;
-}
 #Opportunities-frame h3 {
-	color:#708090;
+		font-family: 'Bungee Inline', cursive;
+	color:#c93756;
 }
+
 #Opportunities-frame p {
 	font-size: 20px;
 	color:#808080;
 }
 
 /* TEAM */
+#team-body {
+	font-family: 'Roboto', sans-serif;
+}
+.team-introduction h3 {
+	font-family: 'Bungee Inline', cursive;
+	color:#c93756;
+}
 .row.team-member {
 	height: 400px;
 }
