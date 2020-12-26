@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task03</title>
+</head>
+<body>
+	<h1>There are pictures of four cities below (from Google):</h1>
+	<ul>
+		<li><a href="cities/Beijing.jpg" title="The city is : Beijing" target="_blank" onclick="selectPicture(this); return false;">Beijing</a></li>
+		<li><a href="cities/LA.jpg" title="The city is : Los Angeles" target="_blank" target="_blank" onclick="selectPicture(this); return false;">LA</a></li>
+		<li><a href="cities/NYC.jpg" title="The city is : New York" target="_blank" target="_blank" onclick="selectPicture(this); return false;">New York City</a></li>
+		<li><a href="cities/Tokyo.jpg" title="The city is : Tokyo" target="_blank" target="_blank" onclick="selectPicture(this); return false;">Tokyo</a></li>
+	</ul>
+	<img id="loader"  src="cities/ajax-loader.gif" alt="my image galerry">
+	<p id="description">Choose an image</p>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
