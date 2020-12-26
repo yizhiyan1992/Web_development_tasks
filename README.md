@@ -7,5 +7,4 @@ https://yizhiyan1992.github.io/Web_development_tasks/task01/Baidu_task_001.html
 https://yizhiyan1992.github.io/Web_development_tasks/task02/index_v2.html
 
 3. Task 3: Switch picture and change description using Javascript
-
-https://yizhiyan1992.github.io/Web_development_tasks/task03/index.html
+  https://yizhiyan1992.github.io/Web_development_tasks/task03/index.html
