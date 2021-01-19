@@ -1,0 +1,18 @@
+body {
+	background-color: #3d3b4f;
+}
+
+.ball {
+	background-color: #3d3b4f;
+	width: 30px;
+	height: 30px;
+	margin: 5px 5px 5px 5px;
+	float: left;
+	border-radius: 50%;
+}
+
+#ball22,#ball42,#ball62,#ball82,#ball103,#ball104,#ball25,#ball45,#ball65,#ball85,
+#ball47,#ball67,#ball87,#ball108,#ball109,#ball28,#ball29,#ball210,#ball50,#ball70,#ball90,
+#ball32,#ball52,#ball72,#ball92,#ball113,#ball114,#ball35,#ball55,#ball75,#ball95 {
+	background-color: red;
+}
