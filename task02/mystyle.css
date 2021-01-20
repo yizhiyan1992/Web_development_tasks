@@ -23,7 +23,7 @@
 	margin-top: -30%;
 }
 .carousel-caption p {
-	font-size: 2vw;
+	font-size: 1.5vw;
 }
 .carousel-caption li {
 	list-style: none;
@@ -31,7 +31,14 @@
 	text-align: left;
 	font-size: 1.5vw;
 }
-
+#carousel-figure1 p {
+	width:175px; 
+	height:175px;
+	background-color: #be002f;
+	float:right;
+	margin-left: 20px;
+	padding-top: 30px;
+}
 /* box elements */
 .marketing .box {
 	text-align: center;
@@ -100,6 +107,8 @@
 #spatial-vis {
 	margin-top: 45px;
 }
+
+
 /* biography page design */
 .biography-title {
 	font-family: 'Bungee Inline', cursive;
@@ -198,6 +207,14 @@
 /* middle screen */
 }
 @media (min-width: 768px) and (max-width: 991px) {
+ #carousel-figure1 p {
+	width:100px; 
+	height:100px;
+	background-color: #be002f;
+	float:right;
+	margin-left: 20px;
+	padding-top: 30px;
+}
 #project-intro {
 	padding-left: 80px;
 }
@@ -220,14 +237,23 @@
 	font-size: 16px;
 	text-align: justify;
 }
-}
 
+}
 /* small screen */
 @media  (min-width: 0) and (max-width: 767px){
 
 .carousel-item, .carousel-item img {
   height: 300px !important;
  }
+ #carousel-figure1 p {
+	width:60px; 
+	height:60px;
+	background-color: #be002f;
+	float:right;
+	margin-left: 10px;
+	padding-top: 15px;
+	margin-bottom: 0px;
+}
 #block1 p,#block1 h2 {
 	margin-left: 0;
 }
