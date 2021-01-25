@@ -186,6 +186,7 @@
 .team-member-profilepic div {
 	background-size: 360px 400px;
 	background-repeat: no-repeat;
+	border-radius:10%;
 	width: 90%;
 	height: 90%;
 	margin: auto;
@@ -273,7 +274,7 @@
 	margin: 20px;
 }
 .row.team-member {
-	height: 350px;
+	height: 450px;
 }
 .team-member-profilepic {
 	width: 180px;
